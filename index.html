@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio Digital</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="nav" id="nav">
+      <div class="logo">Delvin Dev</div>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- Seccion del home -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1 class="hero-titulo">Hola, Soy Delvin Martinez</h1>
+        <p class="hero-subtitulo">Desallorador de software Jr</p>
+        <p class="hero-description">
+          Apasionado por crear apliaciones web robutas y escalable con
+          tecnologíaa modernas. Me especializo en el dearrollos Full-Stack con
+          Asp.Net Core y tengo experiencia con HTML, CSS, JavaScript y React.
+        </p>
+
+        <div class="ctabuttons">
+          <a href="#proyectos" class="btn btn-primary">
+            <i class="fas fa-eye"></i>
+            Ver Proyectos
+          </a>
+          <a href="#proyectos" class="btn btn-secondary">
+            <i class="fas fa-envelope"></i>
+            Contactar
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion de Habilidades  -->
+    <section class="section" id="#habilidades">
+      <div class="container">
+        <h2 class="section-titulo fade-in">Habilidades Tecnicas</h2>
+        <div class="skill-grid">
+          <div class="skill-card fade-ind">
+            <div class="skill-icon">
+              <i class="fas fa-server"></i>
+            </div>
+            <h3 class="skill-title">ASP.NET Core</h3>
+            <p class="skill-description">
+              Desarrollo de APIs RESTful, aplicaciones MVC, y arquitectura clean
+              code. Experiencia con Entity Framework, autenticación JWT, y
+              patrones de diseño.
+            </p>
+            <div class="skill-lever">
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+              <small>Nivel Intermedio</small>
+            </div>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="skill-title">Frontend</h3>
+            <p class="skill-description">
+              HTML5, CSS3, JavaScript ES6+. Experiencia básica con React para
+              crear interfaces de usuario interactivas y responsivas.
+            </p>
+            <div class="skill-level">
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 65%"></div>
+              </div>
+              <small>Nivel Basico</small>
+            </div>
+          </div>
+
+          <div class="skill-card fade-in">
+            <div class="skill-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3 class="skill-title">Base de Datos</h3>
+            <p class="skill-description">
+              SQL Server, MySQL, diseño de bases de datos relacionales,
+              optimización de queries y procedimientos almacenados.
+            </p>
+            <div class="skill-level">
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%"></div>
+              </div>
+              <small>Nivel Basico</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos Section -->
+    <section class="section" id="proyectos">
+      <div class="container">
+        <h2 class="section-title fade-in">Proyectos</h2>
+        <p style="text-align: center; color: #666; margin-bottom: 3rem">
+          Aquí irán mis proyectos conforme los vaya desarrollando
+        </p>
+        <div class="projects-grid">
+          <!-- Placeholder para proyecto futuro -->
+          <div class="project-card coming-soon fade-in">
+            <div class="project-image">
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Próximo Proyecto</h3>
+              <p class="project-description">
+                Aquí aparecerá mi primer proyecto desarrollado en ASP.NET Core
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">ASP.NET Core</span>
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">SQL Server</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Placeholder para proyecto futuro -->
+          <div class="project-card coming-soon fade-in">
+            <div class="project-image">
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Próximo Proyecto</h3>
+              <p class="project-description">
+                Segundo proyecto que estará disponible próximamente
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Placeholder para proyecto futuro -->
+          <div class="project-card coming-soon fade-in">
+            <div class="project-image">
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Próximo Proyecto</h3>
+              <p class="project-description">Tercer proyecto en desarrollo</p>
+              <div class="project-tech">
+                <span class="tech-tag">ASP.NET Core</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section class="section contact" id="contacto">
+      <div class="container">
+        <h2 class="section-title fade-in">Contacto</h2>
+        <div class="contact-content">
+          <p style="font-size: 1.1rem; color: #666; margin-bottom: 2rem">
+            ¿Tienes un proyecto en mente? ¡Hablemos!
+          </p>
+          <div class="contact-info">
+            <div class="contact-item fade-in">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <h3>Email</h3>
+              <p>delvinmr@gmail.com</p>
+            </div>
+            <div class="contact-item fade-in">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <h3>LinkedIn</h3>
+              <p>linkedin.com/in/delvin-martinez-rosario-989a92190</p>
+            </div>
+            <div class="contact-item fade-in">
+              <div class="contact-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <h3>GitHub</h3>
+              <p>github.com/Delvinmr</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Ing. Martinez. Todos los derechos reservados.</p>
+        <div class="social-links">
+          <a href="#" class="social-link">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="/script.js"></script>
+  </body>
+</html>
