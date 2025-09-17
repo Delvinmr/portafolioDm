@@ -465,60 +465,61 @@ body {
             transform: translateY(-3px);
         }
  /* Mobile Responsivo */
-        @media (max-width: 768px) {
-            .nav-menu {
-                display: none;
-            }
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
 
-            .hero-titulo {
-                padding-top: 2.5rem ;
-                font-size: 2.5rem;
-            }
+    .hero-titulo {
+        padding-top: 2.5rem ;
+        font-size: 2.5rem;
+    }
 
-            .hero-subtitulo {
-                font-size: 1.1rem;
-            }
+    .hero-subtitulo {
+        font-size: 1.1rem;
+    }
 
-            .ctabuttons {
-                flex-direction: column;
-                align-items: center;
-            }
+    .ctabuttons {
+        flex-direction: column;
+        align-items: center;
+    }
 
-            .skills-grid,
-            .projects-grid {
-                grid-template-columns: 1fr;
-            }
+    .skills-grid,
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
 
-            .section-title {
-                font-size: 2rem;
-            }
-        
+    .section-title {
+        font-size: 2rem;
+    }
+}   /* ✅ aquí se cierra el media */
 
-        /* Animaciones de entrada */
-        .fade-in {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.6s ease;
-        }
+/* Animaciones de entrada */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease;
+}
 
-        .fade-in.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 
-        /* Scroll suave */
-        html {
-            scroll-behavior: smooth;
-        }
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+}
 
-        /* Placeholder para proyectos futuros */
-        .coming-soon {
-            background: linear-gradient(135deg, #e5e7eb 0%, #f3f4f6 100%);
-            border: 2px dashed #9ca3af;
-        }
+/* Placeholder para proyectos futuros */
+.coming-soon {
+    background: linear-gradient(135deg, #e5e7eb 0%, #f3f4f6 100%);
+    border: 2px dashed #9ca3af;
+}
 
-        .coming-soon .project-image {
-            background: linear-gradient(135deg, #9ca3af 0%, #6b7280 100%);
-        }
-        }
-        
+.coming-soon .project-image {
+    background: linear-gradient(135deg, #9ca3af 0%, #6b7280 100%);
+}
+html, body {
+    overflow-x: hidden;
+}
