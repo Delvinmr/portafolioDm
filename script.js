@@ -1,13 +1,35 @@
 
+
+
         // Navbar scroll effect
-        window.addEventListener('scroll', function() {
-            const navbar = document.getElementById('navbar');
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
+        // window.addEventListener('scroll', function() {
+        //     const navbar = document.getElementById('navbar');
+        //     if (window.scrollY > 50) {
+        //         navbar.classList.add('scrolled');
+        //     } else {
+        //         navbar.classList.remove('scrolled');
+        //     }
+        // });
+
+        const btnSubir = document.getElementById("btnSubir");
+
+        window.onscroll = function(){
+            scrollFunction();
+        }
+
+        function scrollFunction() {
+            if(document.body.scrollTop > 205 || document.documentElement.scrollTop > 205 ){
+                btnSubir.style.display = "block";
+            } else{
+                btnSubir.style.display = "none";
             }
-        });
+            
+        }
+
+        btnSubir.onclick = function(){
+            document.body.scrollTo = 0;
+            document.documentElement.scrollTop = 0;
+        }
 
         // Fade in animation on scroll
         const observerOptions = {

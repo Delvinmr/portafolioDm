@@ -11,6 +11,9 @@ body {
   overflow-x: hidden;
 }
 
+
+
+
 /*  Barra de navegacion */
 .nav {
   position: fixed;
@@ -410,6 +413,24 @@ body {
             font-size: 2rem;
             color: #2563eb;
             margin-bottom: 1rem;
+        }
+
+
+        #btnSubir{
+          
+          display: block;
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+           padding: 15PX;
+           background: #007bff;
+           color: white;
+           font-size: 20px;
+           cursor: pointer;
+           border-radius:10px;
+           text-decoration: none;
+           
+
         }
 
          .footer {
